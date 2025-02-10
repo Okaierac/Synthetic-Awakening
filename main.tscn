@@ -1,11 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://8v3c347dl75c"]
+[gd_scene load_steps=2 format=3 uid="uid://c5wooljrtpfe7"]
 
-[ext_resource type="PackedScene" uid="uid://dkv7cq4rndg6y" path="res://main_character.tscn" id="1_6wn3m"]
+[ext_resource type="PackedScene" uid="uid://dbiwm2rjfbye4" path="res://main_character.tscn" id="1_qbpl3"]
 
 [node name="Node" type="Node"]
 
 [node name="TextureRect" type="TextureRect" parent="."]
-texture_filter = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -13,7 +12,6 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="TileMap" type="TileMap" parent="."]
-texture_filter = 1
 format = 2
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("1_6wn3m")]
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_qbpl3")]
