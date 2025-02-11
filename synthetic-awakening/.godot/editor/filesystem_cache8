@@ -1,11 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739239187
+::res://::1739239300
 Green.png::CompressedTexture2D::6305610458507176894::1739233278::1739233278::1::::<><>::
 icon.svg::CompressedTexture2D::2102721303947116860::1739231525::1739231573::1::::<><>::
 Idle (32x32).png::CompressedTexture2D::4496714230942668855::1739234507::1739234507::1::::<><>::
 Jump (32x32).png::CompressedTexture2D::5352165326628467453::1739234726::1739234726::1::::<><>::
-main.tscn::PackedScene::5976168812085970492::1739239028::0::1::::<><>::uid://cv3qqolppobyk::::res://Green.png<>uid://d0g482o7qfegi::::res://protagonist.tscn<>uid://cnoop8yr1vx0o::::res://Terrain (16x16).png
+main.tscn::PackedScene::5976168812085970492::1739239225::0::1::::<><>::uid://cv3qqolppobyk::::res://Green.png<>uid://d0g482o7qfegi::::res://protagonist.tscn<>uid://cnoop8yr1vx0o::::res://Terrain (16x16).png
 protagonist.gd::GDScript::-1::1739239150::0::1::::<>CharacterBody2D<>::
-protagonist.tscn::PackedScene::8928190573776792460::1739239150::0::1::::<><>::res://protagonist.gd<>uid://b5cihxyv02720::::res://Idle (32x32).png<>uid://ciivm7nt3fvir::::res://Jump (32x32).png<>uid://b8qoomrbdlvaj::::res://Run (32x32).png
+protagonist.tscn::PackedScene::8928190573776792460::1739239220::0::1::::<><>::res://protagonist.gd<>uid://b5cihxyv02720::::res://Idle (32x32).png<>uid://ciivm7nt3fvir::::res://Jump (32x32).png<>uid://b8qoomrbdlvaj::::res://Run (32x32).png
 Run (32x32).png::CompressedTexture2D::4736558263418303045::1739234753::1739234753::1::::<><>::
 Terrain (16x16).png::CompressedTexture2D::5715076219198624420::1739233323::1739233323::1::::<><>::
