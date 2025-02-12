@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://caaqq6npkg0u0"]
+
+[ext_resource type="Script" path="res://Player/Scripts/player_topdown.gd" id="1_h1718"]
+[ext_resource type="Texture2D" uid="uid://ciivm7nt3fvir" path="res://Player/Sprites/S_Placeholder/Jump (32x32).png" id="2_g58c4"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_faww0"]
+
+[node name="Player_Topdown" type="CharacterBody2D"]
+script = ExtResource("1_h1718")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2_g58c4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2)
+shape = SubResource("CapsuleShape2D_faww0")
