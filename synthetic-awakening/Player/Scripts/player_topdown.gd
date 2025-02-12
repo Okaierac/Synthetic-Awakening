@@ -1,8 +1,8 @@
 class_name player_topdown extends CharacterBody2D
 
-
-var move_speed : float = 100.0
-
+@onready var sprite_2d: Sprite2D = $Sprite2D
+var move_speed : float = 400.0
+var isFlipped = false  # Keep track of the flip state
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -20,6 +20,13 @@ func _process( delta ):
 	
 	pass
 
+	if Input.is_action_just_pressed("left") and not isFlipped:
+		sprite_2d.flip_h = true  # Flip the sprite when left arrow is pressed
+		isFlipped = true  # Set the flip state to true
+
+	if Input.is_action_just_pressed("right") and isFlipped:
+		sprite_2d.flip_h = false  # Unflip the sprite when right arrow is pressed
+		isFlipped = false  # Set the flip state to false
 
 func _physics_process( delta ):
 	move_and_slide()
