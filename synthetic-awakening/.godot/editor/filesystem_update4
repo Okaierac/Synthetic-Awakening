@@ -1,1 +1,14 @@
+res://main.tscn
+res://topdown_main.tscn
+res://side_main.tscn
 res://protagonist.tscn
+res://player_side.tscn
+res://protagonist.gd
+res://Player/player_topdown.tscn
+res://Player/Scripts/player_side.gd
+res://Player/player_side.tscn
+res://Player/Scripts/player_topdown.gd
+res://S&TD_Scenes/side_main.tscn
+res://Scenes/main.tscn
+res://Scenes/side_main.tscn
+res://Scenes/topdown_main.tscn
