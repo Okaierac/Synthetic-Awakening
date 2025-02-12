@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bt51kn760nd5i"]
+[gd_scene load_steps=3 format=3 uid="uid://bt51kn760nd5i"]
 
 [ext_resource type="PackedScene" uid="uid://caaqq6npkg0u0" path="res://Player/player_topdown.tscn" id="1_4q1u2"]
+[ext_resource type="Texture2D" uid="uid://cv3qqolppobyk" path="res://Background/B_Placeholder/Green.png" id="1_ub3fb"]
 
 [node name="Top-Down" type="Node"]
 
@@ -11,6 +12,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+texture = ExtResource("1_ub3fb")
+stretch_mode = 1
 
 [node name="Player_Topdown" parent="." instance=ExtResource("1_4q1u2")]
 position = Vector2(537, 305)
