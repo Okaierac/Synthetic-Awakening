@@ -1,28 +1,33 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739549737
+::res://::1739550339
 icon.svg::CompressedTexture2D::2102721303947116860::1739231525::1739549738::1::::<><>::
 ::res://Background/::1739320511
-::res://Background/B_Placeholder/::1739329219
+::res://Background/B_Placeholder/::1739549738
 Green.png::CompressedTexture2D::6305610458507176894::1739328560::1739549738::1::::<><>::
 ::res://Floor/::1739320541
 ::res://Floor/Platformer/::1739320567
-::res://Floor/Platformer/FP_Placeholder/::1739329220
+::res://Floor/Platformer/FP_Placeholder/::1739549738
 Terrain (16x16).png::CompressedTexture2D::5715076219198624420::1739328560::1739549738::1::::<><>::
 ::res://Floor/Top_Down/::1739320554
-::res://Player/::1739406463
-player_side.tscn::PackedScene::8928190573776792460::1739406463::0::1::::<><>::res://Player/Scripts/player_side.gd<>uid://b5cihxyv02720::::res://Player/Sprites/S_Placeholders/Idle (32x32).png<>uid://ciivm7nt3fvir::::res://Player/Sprites/S_Placeholders/Jump (32x32).png<>uid://b8qoomrbdlvaj::::res://Player/Sprites/S_Placeholders/Run (32x32).png
-player_topdown.tscn::PackedScene::4773843060974415893::1739406463::0::1::::<><>::res://Player/Scripts/player_topdown.gd<>uid://ciivm7nt3fvir::::res://Player/Sprites/S_Placeholders/Jump (32x32).png
-::res://Player/Scripts/::1739406463
-player_side.gd::GDScript::-1::1739328560::0::1::::player_side<>CharacterBody2D<>::
-player_topdown.gd::GDScript::-1::1739328560::0::1::::player_topdown<>CharacterBody2D<>::
-State.gd::GDScript::-1::1739406463::0::1::::state<>Node<>::
+::res://Player/::1739550159
+player_side.tscn::PackedScene::8928190573776792460::1739550159::0::1::::<><>::res://Player/Scripts/player_side.gd<>uid://b5cihxyv02720::::res://Player/Sprites/S_Placeholders/Idle (32x32).png<>uid://ciivm7nt3fvir::::res://Player/Sprites/S_Placeholders/Jump (32x32).png<>uid://b8qoomrbdlvaj::::res://Player/Sprites/S_Placeholders/Run (32x32).png
+player_topdown.tscn::PackedScene::4773843060974415893::1739550159::0::1::::<><>::res://Player/Scripts/player_topdown.gd<>uid://ciivm7nt3fvir::::res://Player/Sprites/S_Placeholders/Jump (32x32).png
+::res://Player/Scripts/::1739550203
+player_side.gd::GDScript::-1::1739550203::0::1::::player_side<>CharacterBody2D<>::
+player_topdown.gd::GDScript::-1::1739550203::0::1::::player_topdown<>CharacterBody2D<>::
+State.gd::GDScript::-1::1739550203::0::1::::state<>Node<>::
 ::res://Player/Sprites/::1739406463
-::res://Player/Sprites/S_Placeholder/::1739406463
-::res://Player/Sprites/S_Placeholders/::1739406485
-Idle (32x32).png::CompressedTexture2D::4496714230942668855::1739406463::1739549738::1::::<><>::
-Jump (32x32).png::CompressedTexture2D::5352165326628467453::1739406463::1739549738::1::::<><>::
-Run (32x32).png::CompressedTexture2D::4736558263418303045::1739406463::1739549738::1::::<><>::
-::res://Scenes/::1739406463
-main.tscn::PackedScene::5976168812085970492::1739406463::0::1::::<><>::uid://cr55qty5gq6n::::res://Scenes/side_main.tscn<>uid://bt51kn760nd5i::::res://Scenes/topdown_main.tscn
+::res://Player/Sprites/S_Placeholder/::1739550158
+::res://Player/Sprites/S_Placeholders/::1739550286
+Idle (32x32).png::CompressedTexture2D::4496714230942668855::1739550159::1739550286::1::::<><>::
+Jump (32x32).png::CompressedTexture2D::5352165326628467453::1739550159::1739550286::1::::<><>::
+Run (32x32).png::CompressedTexture2D::4736558263418303045::1739550159::1739550286::1::::<><>::
+::res://Scenes/::1739550159
+main.tscn::PackedScene::5976168812085970492::1739550159::0::1::::<><>::uid://cr55qty5gq6n::::res://Scenes/side_main.tscn<>uid://bt51kn760nd5i::::res://Scenes/topdown_main.tscn
 side_main.tscn::PackedScene::177348063550903611::1739328560::0::1::::<><>::uid://cv3qqolppobyk::::res://Background/B_Placeholder/Green.png<>uid://cnoop8yr1vx0o::::res://Floor/Platformer/FP_Placeholder/Terrain (16x16).png<>uid://d0g482o7qfegi::::res://Player/player_side.tscn
-topdown_main.tscn::PackedScene::3783537278868201832::1739406463::0::1::::<><>::uid://caaqq6npkg0u0::::res://Player/player_topdown.tscn<>uid://cv3qqolppobyk::::res://Background/B_Placeholder/Green.png
+topdown_main.tscn::PackedScene::3783537278868201832::1739550159::0::1::::<><>::uid://caaqq6npkg0u0::::res://Player/player_topdown.tscn<>uid://cv3qqolppobyk::::res://Background/B_Placeholder/Green.png
+::res://Side Characters/::1739550358
+::res://Side Characters/Scripts/::1739550362
+::res://Side Characters/Sprites/::1739550383
+thumbnail_Final knight-6.png.png::CompressedTexture2D::1638271986470278930::1739550383::1739550383::1::::<><>::
+::res://Side Characters/Sprites/Placeholders/::1739550379
