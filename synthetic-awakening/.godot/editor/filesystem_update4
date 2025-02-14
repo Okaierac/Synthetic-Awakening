@@ -1,6 +1,0 @@
-res://Scenes/main.tscn
-res://Scenes/side_main.tscn
-res://Player/player_side.tscn
-res://Scenes/topdown_main.tscn
-res://Player/player_topdown.tscn
-res://Player/Scripts/State.gd
