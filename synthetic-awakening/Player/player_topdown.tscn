@@ -6,6 +6,8 @@
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_faww0"]
 
 [node name="Player_Topdown" type="CharacterBody2D"]
+collision_layer = 3
+collision_mask = 5
 script = ExtResource("1_h1718")
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -17,3 +19,6 @@ texture = ExtResource("2_g58c4")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 2)
 shape = SubResource("CapsuleShape2D_faww0")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+target_position = Vector2(0, 30)

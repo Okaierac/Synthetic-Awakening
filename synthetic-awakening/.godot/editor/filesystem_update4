@@ -1,0 +1,8 @@
+res://Player/player_topdown.tscn
+res://Npcs/Npc1/Npc1.tscn
+res://Scenes/topdown_main.tscn
+res://Scenes/main.tscn
+res://Scenes/side_main.tscn
+res://Player/player_side.tscn
+res://Npcs/Npc1/Interactions manager.gd
+res://Npcs/Npc1/teleporter_npc.tscn

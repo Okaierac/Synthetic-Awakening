@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://bt51kn760nd5i"]
+[gd_scene load_steps=6 format=3 uid="uid://bt51kn760nd5i"]
 
 [ext_resource type="PackedScene" uid="uid://caaqq6npkg0u0" path="res://Player/player_topdown.tscn" id="1_4q1u2"]
 [ext_resource type="Texture2D" uid="uid://cv3qqolppobyk" path="res://Background/B_Placeholder/Green.png" id="1_ub3fb"]
+[ext_resource type="PackedScene" uid="uid://daskka1p3t3d6" path="res://Npcs/Npc1/Npc1.tscn" id="3_fruw5"]
+[ext_resource type="PackedScene" uid="uid://c6tyal5jolee7" path="res://Npcs/Npc1/teleporter_npc.tscn" id="4_eugxj"]
+[ext_resource type="PackedScene" uid="uid://doq4cxrc10rty" path="res://Npcs/Npc1/quest_npc.tscn" id="5_5meyh"]
 
 [node name="Top-Down" type="Node"]
 
@@ -18,3 +21,11 @@ stretch_mode = 1
 [node name="Player_Topdown" parent="." instance=ExtResource("1_4q1u2")]
 position = Vector2(537, 305)
 scale = Vector2(2, 2)
+
+[node name="Area2D" parent="." instance=ExtResource("3_fruw5")]
+
+[node name="Teleporter_npc" parent="." instance=ExtResource("4_eugxj")]
+position = Vector2(32, 51)
+
+[node name="Quest_Npc" parent="." instance=ExtResource("5_5meyh")]
+position = Vector2(64, 0)
