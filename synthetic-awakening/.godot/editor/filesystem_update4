@@ -1,0 +1,7 @@
+res://Items/Change_Scene_(Item).gd
+res://Scenes/side_main.tscn
+res://Scenes/main.tscn
+res://Player/player_side.tscn
+res://Scenes/topdown_main.tscn
+res://Player/player_topdown.tscn
+res://change_scene_item.tscn
