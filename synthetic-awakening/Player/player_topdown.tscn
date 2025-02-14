@@ -1,9 +1,12 @@
-[gd_scene load_steps=4 format=3 uid="uid://caaqq6npkg0u0"]
+[gd_scene load_steps=6 format=3 uid="uid://caaqq6npkg0u0"]
 
 [ext_resource type="Script" path="res://Player/Scripts/player_topdown.gd" id="1_h1718"]
 [ext_resource type="Texture2D" uid="uid://ciivm7nt3fvir" path="res://Player/Sprites/S_Placeholders/Jump (32x32).png" id="2_g58c4"]
+[ext_resource type="Script" path="res://Npcs/Npc1/Interactions manager.gd" id="3_jcjin"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_faww0"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_5ydyn"]
 
 [node name="Player_Topdown" type="CharacterBody2D"]
 collision_layer = 3
@@ -22,3 +25,10 @@ shape = SubResource("CapsuleShape2D_faww0")
 
 [node name="RayCast2D" type="RayCast2D" parent="."]
 target_position = Vector2(0, 30)
+
+[node name="InteractionManager" type="Area2D" parent="."]
+script = ExtResource("3_jcjin")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionManager"]
+position = Vector2(0, 1)
+shape = SubResource("CapsuleShape2D_5ydyn")

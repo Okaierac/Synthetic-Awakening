@@ -6,3 +6,4 @@ res://Scenes/side_main.tscn
 res://Player/player_side.tscn
 res://Npcs/Npc1/Interactions manager.gd
 res://Npcs/Npc1/teleporter_npc.tscn
+res://Player/Scripts/player_topdown.gd

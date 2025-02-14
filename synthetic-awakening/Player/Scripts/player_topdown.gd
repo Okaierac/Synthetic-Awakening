@@ -28,5 +28,9 @@ func _process( delta ):
 		sprite_2d.flip_h = false  # Unflip the sprite when right arrow is pressed
 		isFlipped = false  # Set the flip state to false
 
+func Interact():
+	if Input.is_action_just_pressed("interact"):
+		InteractionManager.initiate_interaction()
+
 func _physics_process( delta ):
 	move_and_slide()
