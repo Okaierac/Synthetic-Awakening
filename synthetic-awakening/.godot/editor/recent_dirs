@@ -1,4 +1,7 @@
-res://Npcs/Npc1
-res://Player/Sprites/S_Placeholders
-res://Player/Scripts
+res://Global Variables
+res://Enemies and traps
 res://
+res://Npcs
+res://Player/Sprites/S_Placeholders
+res://Interaction components
+res://Player/Scripts

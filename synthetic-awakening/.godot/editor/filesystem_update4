@@ -1,9 +1,17 @@
+res://Npcs/test_npc.tscn
 res://Player/player_topdown.tscn
-res://Npcs/Npc1/Npc1.tscn
-res://Scenes/topdown_main.tscn
+res://Npcs/tp_npc.gd
 res://Scenes/main.tscn
 res://Scenes/side_main.tscn
 res://Player/player_side.tscn
-res://Npcs/Npc1/Interactions manager.gd
-res://Npcs/Npc1/teleporter_npc.tscn
-res://Player/Scripts/player_topdown.gd
+res://Scenes/topdown_main.tscn
+res://Interaction components/interactable.tscn
+res://Interaction components/interaction_component.tscn
+res://Player/Scripts/State.gd
+res://Npcs/jeff.tscn
+res://Npcs/jeff.gd
+res://Enemies and traps/portal.gd
+res://Enemies and traps/portal.tscn
+res://Global Variables/Global1.gd
+res://Global Variables/DialogueListener.gd
+res://Scenes/dialoguelistener.gd

@@ -1,11 +1,6 @@
-CollisionShape2D
-InteractionManager
-AnimatedSprite2D
-CharacterBody2D
-Area2D
-RayCast2D
-Camera2D
+Label
 Sprite2D
-TextureRect
-Node
-TileMap
+CollisionShape2D
+Area2D
+CharacterBody2D
+AnimatedSprite2D
