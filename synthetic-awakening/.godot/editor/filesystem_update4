@@ -7,7 +7,4 @@ res://Player/player_topdown.tscn
 res://Npcs/test_npc.tscn
 res://Enemies and traps/portal.tscn
 res://Npcs/jeff.tscn
-res://Scenes/Change_Scene_(Item).gd
-res://change_scene_item.tscn
-res://Items/change_scene_item.tscn
 res://Scenes/change_scene_item.tscn
