@@ -19,6 +19,8 @@ func _process( delta ):
 	velocity = direction * move_speed
 	
 	pass
+	
+	
 
 	if Input.is_action_just_pressed("left") and not isFlipped:
 		sprite_2d.flip_h = true  # Flip the sprite when left arrow is pressed
@@ -27,6 +29,8 @@ func _process( delta ):
 	if Input.is_action_just_pressed("right") and isFlipped:
 		sprite_2d.flip_h = false  # Unflip the sprite when right arrow is pressed
 		isFlipped = false  # Set the flip state to false
+
+
 
 func _physics_process( delta ):
 	move_and_slide()
