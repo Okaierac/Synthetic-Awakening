@@ -1,9 +1,27 @@
-[gd_scene load_steps=7 format=3 uid="uid://cr55qty5gq6n"]
+[gd_scene load_steps=8 format=3 uid="uid://cr55qty5gq6n"]
 
 [ext_resource type="Texture2D" uid="uid://cv3qqolppobyk" path="res://Background/B_Placeholder/Green.png" id="1_3weou"]
 [ext_resource type="Texture2D" uid="uid://cnoop8yr1vx0o" path="res://Floor/Platformer/FP_Placeholder/Terrain (16x16).png" id="2_cds42"]
 [ext_resource type="PackedScene" uid="uid://d0g482o7qfegi" path="res://Player/player_side.tscn" id="3_6mqgg"]
 [ext_resource type="PackedScene" uid="uid://pwinn85rn4n0" path="res://Scenes/change_scene_item.tscn" id="4_h60lv"]
+
+[sub_resource type="GDScript" id="GDScript_8ls10"]
+script/source = "extends Node
+var scene_to_side = false
+
+@onready var top_down: Node = $\"../Top-Down\"
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	if scene_to_side == false:
+		get_tree().change_scene_to_file(\"res://Scenes/topdown_main.tscn\")
+	pass
+"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ffd5v"]
 texture = ExtResource("2_cds42")
@@ -301,6 +319,7 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_ffd5v")
 
 [node name="Side" type="Node"]
+script = SubResource("GDScript_8ls10")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 texture_filter = 1
