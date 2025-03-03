@@ -1,8 +1,9 @@
+res://Scenes/topdown_main.tscn
+res://Items/Change_Scene_(Item).gd
+res://Npcs/jeff.gd
 res://Scenes/side_main.tscn
-res://Scenes/side_main.gd
 res://Scenes/main.tscn
 res://Player/player_side.tscn
-res://Scenes/topdown_main.tscn
 res://Interaction components/interaction_component.tscn
 res://Player/player_topdown.tscn
 res://Npcs/test_npc.tscn
