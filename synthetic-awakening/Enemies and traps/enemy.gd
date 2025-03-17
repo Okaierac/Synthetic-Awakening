@@ -35,14 +35,7 @@ func move(delta):
 	elif dead:
 		velocity.x = 0
 
-func handle_animation():
-	var anim_sprite = $AnimatedSprite2D
-	if !dead and !taking_damage and !is_dealing_damage:
-		
-		if dir.x == -1:
-			anim_sprite.flip_h = true
-		elif dir.x == 1:
-			anim_sprite.flip_h = false
+
 
 func _on_direction_timer_timeout() -> void:
 	$DirectionTimer.wait_time = choose([1.5,2.0,2.5])
