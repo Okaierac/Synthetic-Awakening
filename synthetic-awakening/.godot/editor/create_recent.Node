@@ -1,7 +1,8 @@
+VBoxContainer
+Camera2D
 Label
 TextureRect
 Panel
-VBoxContainer
 Button
 CollisionShape2D
 Sprite2D

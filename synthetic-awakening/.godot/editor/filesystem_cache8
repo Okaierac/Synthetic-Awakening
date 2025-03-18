@@ -1,5 +1,5 @@
 6b83eef13f46d74bce552f92a480ef09
-::res://::1742229094
+::res://::1742313569
 icon.svg::CompressedTexture2D::2102721303947116860::1739554473::1742224474::1::::<><>::
 state.gd::GDScript::-1::1740763285::0::1::::<>Node<>::
 ::res://addons/::1740763285
@@ -82,39 +82,39 @@ Green.png::CompressedTexture2D::6305610458507176894::1739554473::1742224474::1::
 ::res://dialogues/::1742224474
 quest+tp.dialogue::Resource::2415124736065822529::1740763285::1742224474::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
 tp.dialogue::Resource::7459908701795832690::1740763285::1742224474::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
-::res://Enemies and traps/::1742228802
+::res://Enemies and traps/::1742229710
 portal.gd::GDScript::-1::1740763285::0::1::::<>Area2D<>::
 portal.png::CompressedTexture2D::6924509813176006518::1742224192::1742224474::1::::<><>::
-portal.tscn::PackedScene::7673905239529953493::1742228802::0::1::::<><>::uid://d3myelr8tj6bv::::res://Enemies and traps/PortalforTP.png<>res://Enemies and traps/portal.gd<>uid://b0iu14qigxbj5::::res://Interaction components/interactable.tscn
+portal.tscn::PackedScene::7673905239529953493::1742229710::0::1::::<><>::uid://d3myelr8tj6bv::::res://Enemies and traps/PortalforTP.png<>res://Enemies and traps/portal.gd<>uid://b0iu14qigxbj5::::res://Interaction components/interactable.tscn
 PortalforTP.png::CompressedTexture2D::9150787162538617611::1740763285::1742224474::1::::<><>::
 ::res://Floor/::1739554473
 ::res://Floor/Platformer/::1739554473
 ::res://Floor/Platformer/FP_Placeholder/::1742224474
 Terrain (16x16).png::CompressedTexture2D::5715076219198624420::1739554473::1742224474::1::::<><>::
-::res://Interaction components/::1742228802
+::res://Interaction components/::1742229710
 interactable.gd::GDScript::-1::1740763285::0::1::::<>Area2D<>::
 interactable.tscn::PackedScene::4158919115439677164::1740763285::0::1::::<><>::res://Interaction components/interactable.gd
 interaction_component.gd::GDScript::-1::1741370151::0::1::::<>Node2D<>::
-interaction_component.tscn::PackedScene::7070228342586956964::1742228802::0::1::::<><>::res://Interaction components/interaction_component.gd
+interaction_component.tscn::PackedScene::7070228342586956964::1742229710::0::1::::<><>::res://Interaction components/interaction_component.gd
 ::res://Items/::1742224474
 Change_Scene_(Item).gd::GDScript::-1::1740763300::0::1::::<>Area2D<>::
 End (Idle).png::CompressedTexture2D::8514660648826640035::1740763300::1742224474::1::::<><>::
-::res://Main Menu/::1742229094
-Main_Menu.tscn::PackedScene::2512876475053129458::1742228803::0::1::::<><>::uid://difyloqnlli8e::::res://Main Menu/Temp Background.png<>uid://bwwun34hvai7e::::res://Main Menu/Glitch Font/SdglitchdemoRegular-YzROj.ttf
+::res://Main Menu/::1742229855
+Main_Menu.tscn::PackedScene::2512876475053129458::1742229855::0::1::::<><>::uid://difyloqnlli8e::::res://Main Menu/Temp Background.png<>uid://bwwun34hvai7e::::res://Main Menu/Glitch Font/SdglitchdemoRegular-YzROj.ttf<>uid://doijo1c3san10::::res://Main Menu/Images/Glitch Backgorund.jpg
 Temp Background.png::CompressedTexture2D::7732572301162785710::1742227478::1742227479::1::::<><>::
 ::res://Main Menu/Glitch Font/::1742228061
 info.txt::TextFile::-1::1742228061::0::1::::<><>::
 SdglitchdemoRegular-YzROj.ttf::FontFile::3977230625294474964::1742228061::1742228061::1::::<><>::
 ::res://Main Menu/Images/::1742229227
 Glitch Backgorund.jpg::CompressedTexture2D::8158993708086775905::1742229227::1742229227::1::::<><>::
-::res://Npcs/::1742228802
+::res://Npcs/::1742229711
 jeff.gd::GDScript::-1::1740763285::0::1::::<>CharacterBody2D<>::
-jeff.tscn::PackedScene::9204780001166771523::1742228802::0::1::::<><>::uid://b5cihxyv02720::::res://Player/Sprites/S_Placeholders/Idle (32x32).png<>res://Npcs/jeff.gd<>uid://b0iu14qigxbj5::::res://Interaction components/interactable.tscn
-test_npc.tscn::PackedScene::8422045674903926693::1742228802::0::1::::<><>::res://Npcs/tp_npc.gd<>uid://b5cihxyv02720::::res://Player/Sprites/S_Placeholders/Idle (32x32).png<>uid://b0iu14qigxbj5::::res://Interaction components/interactable.tscn
+jeff.tscn::PackedScene::9204780001166771523::1742229710::0::1::::<><>::uid://b5cihxyv02720::::res://Player/Sprites/S_Placeholders/Idle (32x32).png<>res://Npcs/jeff.gd<>uid://b0iu14qigxbj5::::res://Interaction components/interactable.tscn
+test_npc.tscn::PackedScene::8422045674903926693::1742229710::0::1::::<><>::res://Npcs/tp_npc.gd<>uid://b5cihxyv02720::::res://Player/Sprites/S_Placeholders/Idle (32x32).png<>uid://b0iu14qigxbj5::::res://Interaction components/interactable.tscn
 tp_npc.gd::GDScript::-1::1740763285::0::1::::<>CharacterBody2D<>::
-::res://Player/::1742228802
-player_side.tscn::PackedScene::8928190573776792460::1742228802::0::1::::<><>::res://Player/Scripts/player_side.gd<>uid://b5cihxyv02720::::res://Player/Sprites/S_Placeholders/Idle (32x32).png<>uid://ciivm7nt3fvir::::res://Player/Sprites/S_Placeholders/Jump (32x32).png<>uid://b8qoomrbdlvaj::::res://Player/Sprites/S_Placeholders/Run (32x32).png
-player_topdown.tscn::PackedScene::4773843060974415893::1742228802::0::1::::<><>::res://Player/Scripts/player_topdown.gd<>uid://ciivm7nt3fvir::::res://Player/Sprites/S_Placeholders/Jump (32x32).png<>uid://c7y4vl1gwhaga::::res://Interaction components/interaction_component.tscn
+::res://Player/::1742229710
+player_side.tscn::PackedScene::8928190573776792460::1742229710::0::1::::<><>::res://Player/Scripts/player_side.gd<>uid://b5cihxyv02720::::res://Player/Sprites/S_Placeholders/Idle (32x32).png<>uid://ciivm7nt3fvir::::res://Player/Sprites/S_Placeholders/Jump (32x32).png<>uid://b8qoomrbdlvaj::::res://Player/Sprites/S_Placeholders/Run (32x32).png
+player_topdown.tscn::PackedScene::4773843060974415893::1742229710::0::1::::<><>::res://Player/Scripts/player_topdown.gd<>uid://ciivm7nt3fvir::::res://Player/Sprites/S_Placeholders/Jump (32x32).png<>uid://c7y4vl1gwhaga::::res://Interaction components/interaction_component.tscn
 ::res://Player/Scripts/::1740763285
 player_side.gd::GDScript::-1::1739554473::0::1::::player_side<>CharacterBody2D<>::
 player_topdown.gd::GDScript::-1::1740763285::0::1::::player_topdown<>CharacterBody2D<>::
@@ -124,11 +124,11 @@ State.gd::GDScript::-1::1740763285::0::1::::state<>Node<>::
 Idle (32x32).png::CompressedTexture2D::4496714230942668855::1739554723::1742224474::1::::<><>::
 Jump (32x32).png::CompressedTexture2D::5352165326628467453::1739554723::1742224474::1::::<><>::
 Run (32x32).png::CompressedTexture2D::4736558263418303045::1739554723::1742224474::1::::<><>::
-::res://Scenes/::1742228802
-change_scene_item.tscn::PackedScene::1098758651591119167::1742228802::0::1::::<><>::res://Items/Change_Scene_(Item).gd<>uid://dtkthmyg2av76::::res://Items/End (Idle).png
-main.tscn::PackedScene::5976168812085970492::1742228802::0::1::::<><>::uid://boyqocymljkqx::::res://Scenes/side_main.tscn<>uid://bt51kn760nd5i::::res://Scenes/topdown_main.tscn
-side_main.tscn::PackedScene::3419606176404217943::1742228802::0::1::::<><>::uid://cv3qqolppobyk::::res://Background/B_Placeholder/Green.png<>uid://cnoop8yr1vx0o::::res://Floor/Platformer/FP_Placeholder/Terrain (16x16).png<>uid://d0g482o7qfegi::::res://Player/player_side.tscn<>uid://pwinn85rn4n0::::res://Scenes/change_scene_item.tscn
-topdown_main.tscn::PackedScene::3783537278868201832::1742228802::0::1::::<><>::uid://caaqq6npkg0u0::::res://Player/player_topdown.tscn<>uid://cv3qqolppobyk::::res://Background/B_Placeholder/Green.png<>uid://dr8x4kh1gtkaf::::res://Npcs/test_npc.tscn<>uid://dhlkdlov6r5f2::::res://Enemies and traps/portal.tscn<>uid://d4e4m8lv0gk1h::::res://Npcs/jeff.tscn
+::res://Scenes/::1742229885
+change_scene_item.tscn::PackedScene::1098758651591119167::1742229711::0::1::::<><>::res://Items/Change_Scene_(Item).gd<>uid://dtkthmyg2av76::::res://Items/End (Idle).png
+main.tscn::PackedScene::5976168812085970492::1742229885::0::1::::<><>::uid://boyqocymljkqx::::res://Scenes/side_main.tscn<>uid://bt51kn760nd5i::::res://Scenes/topdown_main.tscn<>uid://bb2iyc6jqpfd7::::res://Main Menu/Main_Menu.tscn
+side_main.tscn::PackedScene::3419606176404217943::1742229710::0::1::::<><>::uid://cv3qqolppobyk::::res://Background/B_Placeholder/Green.png<>uid://cnoop8yr1vx0o::::res://Floor/Platformer/FP_Placeholder/Terrain (16x16).png<>uid://d0g482o7qfegi::::res://Player/player_side.tscn<>uid://pwinn85rn4n0::::res://Scenes/change_scene_item.tscn
+topdown_main.tscn::PackedScene::3783537278868201832::1742229710::0::1::::<><>::uid://caaqq6npkg0u0::::res://Player/player_topdown.tscn<>uid://cv3qqolppobyk::::res://Background/B_Placeholder/Green.png<>uid://dr8x4kh1gtkaf::::res://Npcs/test_npc.tscn<>uid://dhlkdlov6r5f2::::res://Enemies and traps/portal.tscn<>uid://d4e4m8lv0gk1h::::res://Npcs/jeff.tscn
 ::res://Side Characters/::1739554723
 ::res://Side Characters/Sprites/::1742224474
 thumbnail_Final knight-6.png.png::CompressedTexture2D::1638271986470278930::1739554723::1742224474::1::::<><>::

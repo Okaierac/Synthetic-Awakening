@@ -1,9 +1,16 @@
-[gd_scene load_steps=3 format=3 uid="uid://cre5vlbx1oocq"]
+[gd_scene load_steps=4 format=3 uid="uid://cre5vlbx1oocq"]
 
 [ext_resource type="PackedScene" uid="uid://boyqocymljkqx" path="res://Scenes/side_main.tscn" id="1_varkt"]
 [ext_resource type="PackedScene" uid="uid://bt51kn760nd5i" path="res://Scenes/topdown_main.tscn" id="2_0wi28"]
+[ext_resource type="PackedScene" uid="uid://bb2iyc6jqpfd7" path="res://Main Menu/Main_Menu.tscn" id="3_ixscn"]
 
 [node name="Main" type="Node"]
+
+[node name="MainMenu" parent="." instance=ExtResource("3_ixscn")]
+offset_left = 13.0
+offset_top = -6207.0
+offset_right = 867.0
+offset_bottom = -5780.0
 
 [node name="Top-Down" parent="." instance=ExtResource("2_0wi28")]
 

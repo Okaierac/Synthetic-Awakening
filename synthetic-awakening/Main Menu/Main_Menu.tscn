@@ -1,8 +1,9 @@
-[gd_scene load_steps=9 format=3 uid="uid://bb2iyc6jqpfd7"]
+[gd_scene load_steps=10 format=3 uid="uid://bb2iyc6jqpfd7"]
 
 [ext_resource type="Texture2D" uid="uid://difyloqnlli8e" path="res://Main Menu/Temp Background.png" id="1_7iji3"]
 [ext_resource type="FontFile" uid="uid://bwwun34hvai7e" path="res://Main Menu/Glitch Font/SdglitchdemoRegular-YzROj.ttf" id="2_5bmjf"]
 [ext_resource type="Texture2D" uid="uid://doijo1c3san10" path="res://Main Menu/Images/Glitch Backgorund.jpg" id="2_qgqbh"]
+[ext_resource type="Script" path="res://Main Menu/start_game.gd" id="3_o356h"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5lelr"]
 texture = ExtResource("1_7iji3")
@@ -66,6 +67,7 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_is4gj")
 theme_override_styles/normal = SubResource("StyleBoxFlat_w8mj1")
 action_mode = 0
 text = "Start Game"
+script = ExtResource("3_o356h")
 
 [node name="Options" type="Button" parent="VBoxContainer"]
 texture_filter = 2
@@ -89,42 +91,38 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_w8mj1")
 action_mode = 0
 text = "Exit"
 
-[node name="Title Shadow" type="Label" parent="."]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -306.0
-offset_top = -169.0
-offset_right = 297.0
-offset_bottom = -41.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 286.0
+offset_top = 136.0
+offset_right = 856.0
+offset_bottom = 192.0
+
+[node name="Title Shadow" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
 theme_override_colors/font_color = Color(0.107924, 0.484574, 0.87338, 1)
 theme_override_constants/shadow_offset_x = 0
 theme_override_constants/shadow_offset_y = 3
-theme_override_constants/outline_size = -2
-theme_override_constants/shadow_outline_size = 1
+theme_override_constants/outline_size = 0
+theme_override_constants/shadow_outline_size = 0
 theme_override_fonts/font = ExtResource("2_5bmjf")
-theme_override_font_sizes/font_size = 75
+theme_override_font_sizes/font_size = 76
 text = "Synthetic Awakening"
 horizontal_alignment = 1
 vertical_alignment = 1
 uppercase = true
 
-[node name="Title" type="Label" parent="."]
+[node name="Title" type="Label" parent="VBoxContainer2/Title Shadow"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -312.0
-offset_top = -170.0
-offset_right = 295.0
-offset_bottom = -38.0
+offset_left = -303.5
+offset_top = -66.0
+offset_right = 303.5
+offset_bottom = 66.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0.955963, 0.955963, 0.955963, 1)
@@ -140,3 +138,8 @@ text = "Synthetic Awakening"
 horizontal_alignment = 1
 vertical_alignment = 1
 uppercase = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 324)
+
+[connection signal="pressed" from="VBoxContainer/Start" to="VBoxContainer/Start" method="_on_pressed"]
