@@ -1,6 +1,6 @@
 CollisionShape2D
-Sprite2D
 Area2D
-Label
+Sprite2D
 CharacterBody2D
+Label
 AnimatedSprite2D

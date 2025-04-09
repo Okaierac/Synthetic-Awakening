@@ -196,6 +196,7 @@ radius = 11.0
 height = 28.0
 
 [node name="Player_Side" type="CharacterBody2D" groups=["player_side"]]
+collision_layer = 3
 script = ExtResource("1_nwayo")
 
 [node name="Camera2D" type="Camera2D" parent="."]
